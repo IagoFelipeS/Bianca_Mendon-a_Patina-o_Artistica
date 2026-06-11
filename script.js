@@ -60,7 +60,7 @@ form.addEventListener('submit', (e) => {
   const mensagem = form.querySelector('textarea').value;
 
   const texto = `Olá! Meu nome é ${nome} e tenho interesse na turma: *${turma}*. ${mensagem ? 'Mensagem: ' + mensagem : ''}`;
-  const url = `https://wa.me/55?text=${encodeURIComponent(texto)}`;
+  const url = `https://wa.me/5516992663316?text=${encodeURIComponent(texto)}`;
   window.open(url, '_blank');
 });
 
